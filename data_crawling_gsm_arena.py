@@ -28,7 +28,7 @@ def get_link_product(full_link, base_link):
             link_product = base_link + a['href']
             print (link_product)
             
-            conn_str = 'narsys/narsys@10.17.18.25:1521/fifnartest'
+            conn_str = 'schema/password@10.17.18.25:1521/fifnartest'
             conn = cx_Oracle.connect(conn_str)
             cur = conn.cursor()
             
