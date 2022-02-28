@@ -118,7 +118,7 @@ def get_attr_data(p, batch):
     link = "https://www.olx.co.id"+link
     print ("Link: "+link)
     
-    conn_str = 'narsys/narsys@10.17.18.25:1521/fifnartest'
+    conn_str = 'schema/password@10.17.18.25:1521/fifnartest'
     conn = cx_Oracle.connect(conn_str)
     cur = conn.cursor()
     
